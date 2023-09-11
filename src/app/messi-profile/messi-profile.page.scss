@@ -1,0 +1,35 @@
+ion-content {
+    --background: #f4f4f4;
+  }
+  
+  ion-card {
+    ion-img {
+      height: 150px;
+    }
+  }
+  // perfil-de-messi.page.scss
+
+.custom-title {
+    font-size: 1em;
+    word-wrap: break-word;
+  }
+  
+  .custom-subtitle {
+    font-size: .8em;
+    word-wrap: break-word;
+  }
+  
+  .custom-label {
+    font-size: .5;
+    word-wrap: break-word;
+    white-space: pre-line;
+
+
+
+  }
+  
+  .custom-note {
+    font-size: .5em;
+    white-space: pre-line;
+  }
+  

@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'messi-profile',
+    loadChildren: () => import('./messi-profile/messi-profile.module').then( m => m.MessiProfilePageModule)
+  },
 ];
 
 @NgModule({
